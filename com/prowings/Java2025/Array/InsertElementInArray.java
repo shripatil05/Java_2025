@@ -9,7 +9,7 @@ public class InsertElementInArray {
 		
 		int[] numbers = {10,20,30,40,50,60,70};
 		int elementToInsert = 101;
-		int position = 5;
+		int position = 6;
 		
 		int[] result = insertAt(elementToInsert,position,numbers);
 		System.out.println(Arrays.toString(result));
