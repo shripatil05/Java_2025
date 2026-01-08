@@ -7,6 +7,7 @@ public class StringMethodScenario2 {
 		String s2 ="world";
 		
 		String s3 =s1.substring(5);
+		System.out.println(s3);
 		System.out.println("s2 == s3 :"+(s2 == s3));
 		
 		
