@@ -4,7 +4,7 @@ public class ArraySearching {
 	public static void main(String[] args) {
 		
 		int[] numbers = {10,20,30,40,50,60};
-		int key = 50;
+		int key = 10;
 		
 		//String result = findElementUsingLinearSearch(key,numbers) ? "Found" : "Not Found";
 		String result = findElementUsingBinarySearch(key,numbers) ? "Found" : "Not Found";

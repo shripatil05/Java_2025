@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class ArrayBubbleSort {
 	public static void main(String[] args) {
 
-		int[] nums = { 12, 11, 14, 31, 13, 10 };
+		int[] nums = { 12, 11, 14, 31, 13, 10,1 };
 
 		sortArrayUsingBubbleSort(nums);
 
@@ -16,7 +16,7 @@ public class ArrayBubbleSort {
 
 	public static void sortArrayUsingBubbleSort(int[] nums) {
 
-		for (int i = 0; i < nums.length - 1; i++) {
+		for (int i = 0; i < nums.length; i++) {
 			for (int j = 0; j < nums.length - 1 - i; j++) {
 				if (nums[j] > nums[j + 1]) {
 					int temp = nums[j];
